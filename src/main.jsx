@@ -5,16 +5,14 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App'
 import {Add} from './pages/Add'
 import {Watched} from './pages/Watched'
-import {WatchList} from './pages/WatchList'
-
-import './index.css'
+import {Watchlist} from './pages/WatchList'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
-          <Route path="/" element={<WatchList />} />
+          <Route path="/" element={<Watchlist />} />
           <Route path="watched" element={<Watched />} />
           <Route path="add" element={<Add />} />
         </Route>
