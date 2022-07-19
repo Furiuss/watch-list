@@ -7,6 +7,8 @@ import {Add} from './pages/Add'
 import {Watched} from './pages/Watched'
 import {Watchlist} from './pages/WatchList'
 
+import './index.css'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
