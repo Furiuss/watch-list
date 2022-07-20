@@ -25,6 +25,10 @@ export const ResultCard = ({movie}) => {
             }
           </h4>
         </div>
+
+        <div className="controls">
+          <button className="btn">Add to WatchList</button>
+        </div>
       </div>
     </div>
   )
