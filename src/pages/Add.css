@@ -7,7 +7,7 @@
 
 .add-content .input-wrapper input {
   width: 100%;
-  background-color: var(--first-color);
+  background-color: var(--alter-color);
   padding: 10px;
   border-radius: 5px;
   border: none;

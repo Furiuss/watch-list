@@ -1,21 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  --first-hue: 250;
-  --sat: 66%;
-  --lig: 75%;
-  --second-hue: 219;
-  --first-color: hsl(var(--second-hue), 48%, 8%);
+  --first-color: #121212;
+  --alter-color: #0d0d0d;
   --secondary: #39ec28;
-  --first-color-alt: hsl(var(--first-hue), var(--sat), var(--lig))
-  --text-color: hsl(var(--second-hue), 8%, 75%)
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;  
-  background-color: #121212;
+  background-color: var(--first-color);
   color: white;
 }
 

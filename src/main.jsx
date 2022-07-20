@@ -9,6 +9,7 @@ import {Watchlist} from './pages/WatchList'
 
 import './index.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>

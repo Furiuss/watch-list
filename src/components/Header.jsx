@@ -15,7 +15,6 @@ export const Header = () => {
           <ul className="nav-links">
             <li>
               <Link to="/">
-                <i class="fa-solid fa-plus"></i>
                 WatchList
               </Link>
             </li>
